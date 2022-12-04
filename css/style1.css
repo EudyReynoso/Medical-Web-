@@ -4,8 +4,8 @@
     --green: #3c84fb;
     --black: #444;
     --light-color: #777;
-    --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
-    --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    --box-shadow: 0.5rem 0.5rem 0 rgba(10, 42, 148, 0.2);
+    --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.349);
     --border: 0.2rem solid var(--green);
 }
 
@@ -139,22 +139,17 @@ section {
     letter-spacing: 0.4rem;
 }
 .home1 p {
-    font-size: 1.7rem;
-    color: var(--light-color);
-}
-.home .content h3 {
-    font-size: 4.5rem;
-    color: var(--black);
-    line-height: 1.8;
-    text-shadow: var(--text-shadow);
+    font-size: 3rem;
+    text-align: center;
+
+    background: #3c84fb;
+    color:#eee;
+    border-radius: 5px;
+    padding:0;
+    font-weight: bold;
+
 }
 
-.home .content p {
-    font-size: 1.7rem;
-    color: var(--light-color);
-    line-height: 1.8;
-    padding: 1rem 0;
-}
 
 .icons-container {
     display: grid;
@@ -222,6 +217,8 @@ section {
     line-height: 2;
 }
 
+/* Parte de Angelica Sobre nosotros**************************/
+
 .about .row {
     display: flex;
     align-items: center;
@@ -254,6 +251,8 @@ section {
     font-size: 1.5rem;
     line-height: 1.8;
 }
+/* Parte de Angelica  Nuestors doctores**************************/
+
 
 .doctors .box-container {
     display: grid;
@@ -308,7 +307,8 @@ section {
     color: #fff;
     box-shadow: var(--box-shadow);
 }
-
+/* Parte de Angelica  Nuestors FIn
+**************************/
 .book .row {
     display: flex;
     align-items: center;
