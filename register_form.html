@@ -8,28 +8,49 @@
    <title>register form</title>
 
    <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style1.css" />
    <link rel="stylesheet" href="css/style2.css" />
 </head>
 
 <body>
 
+ <!-- header seccion inicio -->
 
+ <header class="header">
+   <img class="logo"  src="imag\surface1.svg" alt="">
+   
+
+   <nav class="navbar">
+       
+       <a href="./index.html#inicio">inico</a>
+       <a href="./index.html">servicios</a>
+       <a href="./index.html">Nosotros</a>
+       <a href="./index.html">Doctores</a>
+       <a href="./index.html">Mensaje</a>
+       <a href="./index.html">Clientes</a>
+       <a href="./index.html">blogs</a>
+   </nav>
+
+
+</header>
+
+<!-- header seccion final -->
    <div class="form-container">
       <form action="" method="post">
-         <h3>register now</h3>
+         <h3>Cree su cuenta Ahora</h3>
 
-         <input type="text" name="name" required placeholder="enter your name" />
-         <input type="email" name="email" required placeholder="enter your email" />
-         <input type="password" name="password" required placeholder="enter your password" />
-         <input type="password" name="cpassword" required placeholder="confirm your password" />
+         <input type="text" name="name" required placeholder="Ingrese Su nombre" />
+         <input type="email" name="email" required placeholder="ingrese su Correo" />
+         <input type="password" name="password" required placeholder="ingrese su contraseña" />
+         <input type="password" name="cpassword" required placeholder="confirme su contraseña" />
          <select name="user_type">
-            <option value="user">user</option>
-            <option value="admin">admin</option>
+            <option value="user">Usuario normal</option>
+            <option value="admin">Usuario administrador</option>
          </select>
-         <input type="submit" name="submit" value="register now" class="form-btn" />
+         <input type="submit" name="submit" value="crear cuenta" class="form-btn" />
          <p>
-            already have an account?
-            <a href="./login_form.html">login now</a>
+            Tienes una cuenta?
+            <a href="./login_form.html">Inicia sesion</a>
          </p>
       </form>
    </div>
